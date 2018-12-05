@@ -2,9 +2,9 @@ title: Stack Problems
 description: My Personal Stack Problems
 author: Dat Dao
 github: https://github.com/datagit
-about: I am freelance developer. Currently doing more in backend, focused in PHP and MySQL.
+about: I am freelance developer. Currently doing more in backend, focused in PHP/MySQL and Linux
 disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+google_analytics: UA-130502149-1
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
