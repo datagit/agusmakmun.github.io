@@ -2,7 +2,7 @@
 layout: post
 title:  "Find Substrings for line Encoding [CF]"
 date:   2016-06-11 03:04:23 +0700
-categories: [python, codefights]
+categories: [php, codefights]
 ---
 
 Given a string, return its encoding defined as follows:
@@ -32,7 +32,7 @@ _Constraints:_ `4 ≤ s.length ≤ 15.`
 
 **Solution:**
 
-```python
+```php
 import re
 def lineEncoding(s):
     grub = [ m.group(0) for m in re.finditer(r"(\w)\1*", s )]
@@ -49,7 +49,7 @@ def lineEncoding(s):
 
 **Result Tests:**
 
-```python
+```php
 >>>
 s = "aabbbc"
 >>> lineEncoding(s)

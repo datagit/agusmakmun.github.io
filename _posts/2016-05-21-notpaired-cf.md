@@ -2,7 +2,7 @@
 layout: post
 title:  "notPaired [CF]"
 date:   2016-05-22 04:10:03 +0700
-categories: [python, codefights]
+categories: [php, codefights]
 ---
 
 Author Question: **Lepluto**
@@ -29,7 +29,7 @@ In Numberland, every integer living there has a soulmate which is the exact same
 
 **Solution:**
 
-```python
+```php
 def notPaired(numberland):
   for x in numberland:
     if numberland.count(x) == 1: return x

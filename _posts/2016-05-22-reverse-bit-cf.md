@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse Bit [CF]"
 date:   2016-05-22 04:04:23 +0700
-categories: [python, codefights]
+categories: [php, codefights]
 ---
 
 Author Question: **Giappi**
@@ -31,7 +31,7 @@ For `x = 234`, the output should be `ReverseBit(x) = 87`.
 
 **Solution:**
 
-```python
+```php
 def ReverseBit(x):
   x = bin(x).replace('0b', '')
   reverse_text = ''

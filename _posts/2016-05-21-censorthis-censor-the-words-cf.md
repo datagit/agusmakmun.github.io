@@ -2,7 +2,7 @@
 layout: post
 title:  "CensorThis - Censor the words [CF]"
 date:   2016-05-22 04:17:54 +0700
-categories: [python, codefights]
+categories: [php, codefights]
 ---
 
 Author Question: **Argaen**
@@ -33,7 +33,7 @@ The censored text. Its length should be the same as the length of text.
 
 **Solution:**
 
-```python
+```php
 def CensorThis(text, forbiddenWords):
   return ' '.join([ t.replace(t, "*" * len(t)) if t.lower() in forbiddenWords else t for t in text.split() ])
 ```
@@ -57,9 +57,9 @@ Expected Output: "*** cat does not **** *** therapy"
 **Test 3**
 
 ```
-text: "Python is the BEST programming language and LOLCODE is the Worst"
+text: "php is the BEST programming language and LOLCODE is the Worst"
 forbiddenWords: ["worst", "best"]
-Expected Output: "Python is the **** programming language and LOLCODE is the *****"
+Expected Output: "php is the **** programming language and LOLCODE is the *****"
 ```
 
 **Test 4**

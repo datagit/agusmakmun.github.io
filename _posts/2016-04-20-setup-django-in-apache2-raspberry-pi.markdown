@@ -24,7 +24,7 @@ Listen 192.168.1.27:8001
     ServerName 192.168.1.27:80/pydash
     ServerAlias 192.168.1.27:8001
     DocumentRoot /var/www/pydash/
-    WSGIDaemonProcess pydash display-name=%{GROUP} python-path=/var/www/pydash
+    WSGIDaemonProcess pydash display-name=%{GROUP} php-path=/var/www/pydash
     WSGIProcessGroup pydash
     WSGIScriptAlias / /var/www/pydash/pydash/wsgi.py
     Alias /static /var/www/pydash/static/

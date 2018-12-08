@@ -5,9 +5,9 @@ date:   2016-04-19 20:15:33 +0700
 categories: [django]
 ---
 
-#### 1. Install module of Python Postmark
+#### 1. Install module of php Postmark
 
-Install this module manually from souce inside your environtment: [https://github.com/themartorana/python-postmark](https://github.com/themartorana/python-postmark)
+Install this module manually from souce inside your environtment: [https://github.com/themartorana/php-postmark](https://github.com/themartorana/php-postmark)
 
 > If you work on `Django==1.9.*`, requirements only `mock`.
 

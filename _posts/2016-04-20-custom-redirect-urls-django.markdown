@@ -2,13 +2,13 @@
 layout: post
 title:  "Custom redirect urls django"
 date:   2016-04-20 09:41:20 +0700
-categories: [python, django]
+categories: [php, django]
 ---
 Example in this problem we need redirect the url `http://localhost:8000/a/b/C/123/4/5/` to `http://localhost:8000/abC12345` without `/` slash.
 
 #### 1. In your `views.py`
 
-{% highlight python %}
+{% highlight php %}
 from django.http import HttpResponse
 from django.views.generic.base import RedirectView
 from django.core.urlresolvers import reverse
@@ -27,7 +27,7 @@ def pool_fix(request, pk):
 
 #### 2. In your `urls.py`
 
-{% highlight python %}
+{% highlight php %}
 from django.conf.urls import url
 from . import views
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Python Permutations"
+title:  "php Permutations"
 date:   2016-04-19 19:31:43 +0700
-categories: [python]
+categories: [php]
 ---
-This simply how to implement the module of permutations in python.
+This simply how to implement the module of permutations in php.
 
 {% highlight ruby %}
 >>> from itertools import permutations

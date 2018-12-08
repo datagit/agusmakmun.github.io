@@ -2,7 +2,7 @@
 layout: post
 title:  "get Month Name [CF]"
 date:   2016-06-11 03:43:45 +0700
-categories: [python, codefights]
+categories: [php, codefights]
 ---
 
 Map the given integer to a month.
@@ -25,7 +25,7 @@ Here are abbreviations of all months:
 
 **My Solution:**
 
-```python
+```php
 def getMonthName(mo):
     months = {
         1: "Jan", 2: "Feb", 3: "Mar", 4:"Apr", 
@@ -39,7 +39,7 @@ def getMonthName(mo):
 
 **Result Tests**:
 
-```python
+```php
 >>> getMonthName(1)
 "Jan"
 >>> getMonthName(0)
