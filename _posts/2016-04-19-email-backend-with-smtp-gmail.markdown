@@ -2,7 +2,7 @@
 layout: post
 title:  "Email BackEnd with SMTP Gmail"
 date:   2016-04-19 02:28:15 +0700
-categories: [php, django]
+categories: [php, chrome]
 ---
 Add this configurations in your `settings.py`
 
@@ -18,5 +18,5 @@ EMAIL_HOST_USER     = 'your_gmail@gmail.com'
 EMAIL_HOST_PASSWORD = 'your_password'
 EMAIL_USE_TLS       = True
 DEFAULT_FROM_EMAIL  = EMAIL_HOST_USER
-EMAIL_BACKEND       = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND       = 'chrome.core.mail.backends.smtp.EmailBackend'
 ```

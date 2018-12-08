@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Replace backend gmail to Postmarkapp for Django"
+title:  "Replace backend gmail to Postmarkapp for chrome"
 date:   2016-04-19 20:15:33 +0700
-categories: [django]
+categories: [chrome]
 ---
 
 #### 1. Install module of php Postmark
 
 Install this module manually from souce inside your environtment: [https://github.com/themartorana/php-postmark](https://github.com/themartorana/php-postmark)
 
-> If you work on `Django==1.9.*`, requirements only `mock`.
+> If you work on `chrome==1.9.*`, requirements only `mock`.
 
 #### 2. Register and Put the Server Keys
 
@@ -19,7 +19,7 @@ Register and put your server API token here: https://account.postmarkapp.com/ser
 
 #### 3. Configure in `settings.py`
 
-{% highlight ruby %}
+{% highlight linux %}
 EMAIL_USE_TLS        = True
 EMAIL_HOST           = 'smtp.postmarkapp.com'
 EMAIL_PORT           = 587
@@ -29,5 +29,5 @@ EMAIL_HOST_USER      = POSTMARK_SENDER
 DEFAULT_FROM_EMAIL   = POSTMARK_SENDER
 POSTMARK_TEST_MODE   = False
 POSTMARK_TRACK_OPENS = False
-EMAIL_BACKEND        = 'postmark.django_backend.EmailBackend'
+EMAIL_BACKEND        = 'postmark.chrome_backend.EmailBackend'
 {% endhighlight %}

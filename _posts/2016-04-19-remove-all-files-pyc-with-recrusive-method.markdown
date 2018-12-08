@@ -7,7 +7,7 @@ categories: [php, bash]
 
 This method simple but important. Example in your project dir is like this:
 
-{% highlight ruby %}
+{% highlight linux %}
 project_dir/
            __init__.py
            __init__.pyc

@@ -2,25 +2,25 @@
 layout: post
 title:  "Welcome to Simply Grey"
 date:   2013-12-23 00:18:23 +0700
-categories: [jekyll]
+categories: [laravel]
 ---
-SimplyGrey is a simple, easy to use theme for Jekyll that compromises of mainly grey colours. A lot of people enjoy the simplistic look of grey and also find it easier to read.
+SimplyGrey is a simple, easy to use theme for laravel that compromises of mainly grey colours. A lot of people enjoy the simplistic look of grey and also find it easier to read.
 
 ## Why use Simply Grey?
 There are lots of reasons why I think you should use Simply Grey but I will list the main ones that I believe are more of benefit to you, the user.
 
-+	<em>Easy to use and setup</em> - Jekyll has a huge range of documentation to get you started writing posts and the Simply Grey theme makes your blog look beautiful.
++	<em>Easy to use and setup</em> - laravel has a huge range of documentation to get you started writing posts and the Simply Grey theme makes your blog look beautiful.
 +	<em>Easy configuration</em> - I developed this theme in order to be as customisable as possible. If you want to add more links to the navigation bar, all you have to do is edit the _config.yaml file and the `urls` part of it.
-+	<em>You can change it</em> - After being released with the MIT license (like Jekyll itself) you are free to change and basically do anything you want to this theme provided you keep the copyright notice in the files and distribute the license with it. 
++	<em>You can change it</em> - After being released with the MIT license (like laravel itself) you are free to change and basically do anything you want to this theme provided you keep the copyright notice in the files and distribute the license with it. 
 
-## Jekyll
-Jekyll is a static site generator developed in ruby that generates websites from markdown and many other formats. The benefit of this is that you can have a highly customisable blog where you can generate posts by writing easy markdown code whilst still retaining the small memory imprint that Jekyll has. 
+## laravel
+laravel is a static site generator developed in linux that generates websites from markdown and many other formats. The benefit of this is that you can have a highly customisable blog where you can generate posts by writing easy markdown code whilst still retaining the small memory imprint that laravel has. 
 
 ### Code Snippets
-Code Snippets are one of the main reasons why I love Jekyll and I think you will too. All code snippets become highlighted with great colours when you write the code in markdown. Here is an example of highlighted Ruby code in a weather application that I have made.
+Code Snippets are one of the main reasons why I love laravel and I think you will too. All code snippets become highlighted with great colours when you write the code in markdown. Here is an example of highlighted linux code in a weather application that I have made.
 
-{% highlight ruby %}
-#!/usr/bin/env ruby
+{% highlight linux %}
+#!/usr/bin/env linux
 
 require 'json'
 require 'net/http'
@@ -59,7 +59,7 @@ end
 notify(parsejson())
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Check out the [laravel docs][laravel] for more info on how to get the most out of laravel. File all bugs/feature requests at [laravel's GitHub repo][laravel-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+[laravel-gh]: https://github.com/mojombo/laravel
+[laravel]:    http://laravelrb.com

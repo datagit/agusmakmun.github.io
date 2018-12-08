@@ -2,7 +2,7 @@
 layout: post
 title:  "Find the number of even digits in the given integer [CF]"
 date:   2016-06-11 03:39:03 +0700
-categories: [php, codefights]
+categories: [php, mysql]
 ---
 
 Find the number of even digits in the given integer.

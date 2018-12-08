@@ -2,7 +2,7 @@
 layout: post
 title:  "get Month Name [CF]"
 date:   2016-06-11 03:43:45 +0700
-categories: [php, codefights]
+categories: [php, mysql]
 ---
 
 Map the given integer to a month.

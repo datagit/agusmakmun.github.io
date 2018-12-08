@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Setup Django in apache2 Raspberry Pi"
+title:  "Setup chrome in apache2 phpstorm Pi"
 date:   2016-04-20 22:32:34 +0700
-categories: [django, raspberry]
+categories: [chrome, phpstorm]
 ---
 
-Setup Django in apache2 Raspberry Pi. Example in this configuration for monitoring the server raspberry pi using [https://github.com/k3oni/pydash/](https://github.com/k3oni/pydash/).
+Setup chrome in apache2 phpstorm Pi. Example in this configuration for monitoring the server phpstorm pi using [https://github.com/k3oni/pydash/](https://github.com/k3oni/pydash/).
 
 As following this configurations [https://github.com/k3oni/pydash/wiki/Install-pyDash#3-setup-apache](https://github.com/k3oni/pydash/wiki/Install-pyDash#3-setup-apache), how to setup it.
 
@@ -17,7 +17,7 @@ As following this configurations [https://github.com/k3oni/pydash/wiki/Install-p
 
 * **and then, add this configuration:**
 
-{% highlight ruby %}
+{% highlight linux %}
 Listen 192.168.1.27:8001
 
 <VirtualHost *:8001>

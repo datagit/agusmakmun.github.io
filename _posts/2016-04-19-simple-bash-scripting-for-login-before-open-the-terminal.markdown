@@ -7,7 +7,7 @@ categories: [bash]
 
 Add this in your file of `/etc/bash.bashrc`, makesure you logged in as root.
 
-{% highlight ruby %}
+{% highlight linux %}
 ### ===============================================
 ### Simple bash scripting for login before open the terminal.
 ### Credit: <Summon Agus> - agus@php.web.id

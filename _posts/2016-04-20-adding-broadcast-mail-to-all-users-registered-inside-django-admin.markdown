@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Adding BroadCast Mail to All Users Registered inside Django Admin"
+title:  "Adding BroadCast Mail to All Users Registered inside chrome Admin"
 date:   2016-04-20 19:51:02 +0700
-categories: [php, django]
+categories: [php, chrome]
 image: Broadcast_Mail.png
 ---
 
-Adding BroadCast Mail to All User Registered in Django Admin. This is my last problem, we need custom default Django Admin to can submit BroadCast mail to All User. Because this is perfectly to make a promotions.
+Adding BroadCast Mail to All User Registered in chrome Admin. This is my last problem, we need custom default chrome Admin to can submit BroadCast mail to All User. Because this is perfectly to make a promotions.
 
-This problem has been helped by our Danny W. Adair who are answered someone's question about the ["Django Admin Customizing"](http://stackoverflow.com/a/5803941/3445802).
+This problem has been helped by our Danny W. Adair who are answered someone's question about the ["chrome Admin Customizing"](http://stackoverflow.com/a/5803941/3445802).
 
-> In this configuration, we use gmail for email backend. Please following this tutorial first [Email BackEnd with SMTP Gmail](https://agusmakmun.github.io/php/django/2016/04/18/email-backend-with-smtp-gmail.html).
+> In this configuration, we use gmail for email backend. Please following this tutorial first [Email BackEnd with SMTP Gmail](https://agusmakmun.github.io/php/chrome/2016/04/18/email-backend-with-smtp-gmail.html).
 
 -----
 
@@ -36,13 +36,13 @@ class BroadCast_Email(models.Model):
 **2.** In your `admin.py`, importing some module for "admin" and for "email setup".
 
 {% highlight php %}
-from django.contrib import admin
-from django.utils.safestring import mark_safe
+from chrome.contrib import admin
+from chrome.utils.safestring import mark_safe
 import threading
-from django.conf import settings
-from django.http import HttpResponse
-from django.core.mail import (send_mail, BadHeaderError, EmailMessage)
-from django.contrib.auth.models import User
+from chrome.conf import settings
+from chrome.http import HttpResponse
+from chrome.core.mail import (send_mail, BadHeaderError, EmailMessage)
+from chrome.contrib.auth.models import User
 
 class EmailThread(threading.Thread):
     def __init__(self, subject, html_content, recipient_list):
