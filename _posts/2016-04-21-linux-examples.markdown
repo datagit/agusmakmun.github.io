@@ -16,7 +16,7 @@ find /tmp -type f -iname "*filename.png"
 #filter list file in more files with pattern [7660]
 grep -l "7660" /tmp/*
 #search text in folders:   
-grep -R "ドラゴンオーブ" /tmp
+grep -R "abc" /tmp
 
 #open file f1.txt, replace 'f1' to 'datdao', output new file name 'f1_new.txt'
 cat f1.txt | sed 's/f1/datdao/g' > f1_new.txt
@@ -28,13 +28,13 @@ echo `date '+%Y-%m-%d %H:%M:%S'` > current_datetime.txt
 
 #debug process in linux
 #find pid of process
-#sudo ps -ef |grep apache2
-#sudo lsof -p 11685 #pid's apache2
+sudo ps -ef |grep apache2
+sudo lsof -p 11685 #pid's apache2
 
-#sudo lsof |grep "mysql"
-#sudo lsof |grep "apache"
-#sudo lsof |grep php
-#sudo lsof |grep apache
+sudo lsof |grep "mysql"
+sudo lsof |grep "apache"
+sudo lsof |grep php
+sudo lsof |grep apache
 ```
 
 **Refference:** [https://www.unr.edu/research-computing/the-grid/using-the-grid/bash-commands](https://www.unr.edu/research-computing/the-grid/using-the-grid/bash-commands)
