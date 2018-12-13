@@ -9,8 +9,7 @@ categories: [bash, linux, git]
 #### Stashing your work
 The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy. For example:
 
-![demo](https://raw.githubusercontent.com/datagit/datagit.github.io/master/static/img/_posts/git_stash.png)
-```
+```bash
 $ git status
 On branch master
 Changes to be committed:
@@ -25,7 +24,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 #### Re-applying your stashed changes
-```
+```bash
 $ git status
 On branch master
 nothing to commit, working tree clean
@@ -38,7 +37,7 @@ modified: index.html
 #Dropped refs/stash@{0} (32b3aa1d185dfe6d57b3c3cc3b32cbf3e380cc6a)
 ```
 
-```
+```bash
 # tracked files
 $ git stash 
 
@@ -93,9 +92,8 @@ $ git stash drop stash@{1}
 #Or you can delete all of your stashes with:
 $ git stash clear
 
-
 ```
-
+![demo](https://raw.githubusercontent.com/datagit/datagit.github.io/master/static/img/_posts/git_stash.png)
 
 **Refference:** [https://www.atlassian.com/git/tutorials/saving-changes/git-stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
