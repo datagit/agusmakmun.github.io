@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Types In Json"
 date:   2016-04-19 19:31:43 +0700
-categories: [json]
+categories: [javascript]
 ---
 Because JSON is designed to be lightweight, it supports only four primitive data types, as shown in the following table.
 #### Table 1. JSON primitive data types
