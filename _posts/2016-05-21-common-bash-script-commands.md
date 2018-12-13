@@ -6,8 +6,7 @@ categories: [bash, linux]
 ---
 
 #### Examples
-{% highlight linux %}
-
+```text
 #list file in folder
 find .git/objects/ -type f
 #find files like pattern in folder
@@ -36,7 +35,7 @@ sudo lsof |grep "apache"
 sudo lsof |grep php
 sudo lsof |grep apache
 ```
-{% endhighlight %}
+
 ls: Show directory contents, lists names of files.
 
 mkdir: Creates a directory of the specified name.
@@ -95,7 +94,7 @@ done
 Input/ Output Redirection
 
 Bash uses three main streams of data: input, output and error. You can direct input and output of data with various commands.
-```
+```txt
 < : Takes the contents out of the file and redirects it to the program.
 > : Takes the STDOUT (output stream) of the specified program, and writes it to a certain file. Any contents already in the file are overwritten.
 >> : Takes the STDOUT of the specified program and appends (adds) it to the specified program. The original contents of the file remain, instead of being deleted.
