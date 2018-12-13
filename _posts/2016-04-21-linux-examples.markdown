@@ -7,7 +7,7 @@ categories: [bash, linux]
 
 #### Examples
 
-```shell
+```bash
 #list file in folder
 find .git/objects/ -type f
 #find files like pattern in folder
@@ -28,13 +28,13 @@ echo `date '+%Y-%m-%d %H:%M:%S'` > current_datetime.txt
 
 #debug process in linux
 #find pid of process
-sudo ps -ef |grep apache2
-sudo lsof -p 11685 #pid's apache2
+#sudo ps -ef |grep apache2
+#sudo lsof -p 11685 #pid's apache2
 
-sudo lsof |grep "mysql"
-sudo lsof |grep "apache"
-sudo lsof |grep php
-sudo lsof |grep apache
+#sudo lsof |grep "mysql"
+#sudo lsof |grep "apache"
+#sudo lsof |grep php
+#sudo lsof |grep apache
 ```
 
 **Refference:** [https://www.unr.edu/research-computing/the-grid/using-the-grid/bash-commands](https://www.unr.edu/research-computing/the-grid/using-the-grid/bash-commands)
