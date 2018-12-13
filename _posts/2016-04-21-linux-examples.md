@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Common Bash Script Commands"
-date:   2016-01-11 14:31:01 +0700
+date:   2016-04-21 19:31:43 +0700
 categories: [bash, linux]
 ---
 
 #### Examples
-```text
+```
 #list file in folder
 find .git/objects/ -type f
 #find files like pattern in folder
