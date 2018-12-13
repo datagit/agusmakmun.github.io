@@ -6,7 +6,8 @@ categories: [bash, linux]
 ---
 
 #### Examples
-```bash
+{% highlight linux %}
+
 #list file in folder
 find .git/objects/ -type f
 #find files like pattern in folder
@@ -35,7 +36,7 @@ sudo lsof |grep "apache"
 sudo lsof |grep php
 sudo lsof |grep apache
 ```
-
+{% endhighlight %}
 ls: Show directory contents, lists names of files.
 
 mkdir: Creates a directory of the specified name.
