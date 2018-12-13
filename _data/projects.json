@@ -5,7 +5,7 @@
 		"image": "code_php.jpg",
 		"url": "#",
 		"date": "Jan 2014",
-		"tags": ["Jquery","External API", "PHP", "Symfony", "Mysql"]
+		"tags": ["Jquery","External API", "PHP", "Symfony", "Mysql", "git", "linux", "bash script"]
 	},
 	{
 		"slug": "insing-home-page",
@@ -13,7 +13,7 @@
 		"image": "insing.com.png",
 		"url": "http://www.insing.com",
 		"date": "May 2013",
-		"tags": ["PHP","Mysql", "Symfony", "Memcached", "Jquery"]
+		"tags": ["PHP","Mysql", "Symfony", "Memcached", "Jquery", "svn", "linux", "bash script", "Jquery"]
 	},
 	{
 		"slug": "sexy-army-api-for-game",
@@ -21,7 +21,7 @@
 		"image": "api_general.png",
 		"url": "#",
 		"date": "June 2013",
-		"tags": ["PHP","Mysql", "SQLite","CakePHP"]
+		"tags": ["PHP","Mysql", "SQLite","CakePHP", "svn", "linux", "bash script"]
 	},
 	{
 		"slug": "cropnet-social-networking-for-agriculture",
@@ -29,6 +29,6 @@
 		"image": "cropnet.jp.png",
 		"url": "https://www.cropnet.jp/",
 		"date": "Oct 2012",
-		"tags": ["PHP","Mysql", "Symfony"]
+		"tags": ["PHP", "Mysql", "Symfony", "svn", "linux", "bash script", "Jquery"]
 	}
 ]
