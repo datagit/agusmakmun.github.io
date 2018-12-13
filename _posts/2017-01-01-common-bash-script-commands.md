@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "common bash script commands"
-date:   2017-05-21 14:32:04 +0700
+date:   2017-01-01 14:32:04 +0700
 categories: [bash, linux]
 ---
 
