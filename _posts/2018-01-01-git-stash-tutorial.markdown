@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git Stash Tutorial"
-date:   2018-00-01 19:31:43 +0700
+date:   2018-01-01 19:31:43 +0700
 categories: [bash, linux, git]
 ---
 
