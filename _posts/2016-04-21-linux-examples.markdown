@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Common Bash Script Commands"
+title:  "Linux Examples"
 date:   2016-04-21 19:31:43 +0700
 categories: [bash, linux]
 ---
