@@ -8,7 +8,7 @@ google_analytics: UA-130502149-1
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
-tagarray: ["php", "mysql", "linux", "laravel", "symfony"]
+tagarray: ["php", "mysql", "linux", "laravel", "symfony", "git", "bash script"]
 
 collections:
   project:
