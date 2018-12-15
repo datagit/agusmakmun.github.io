@@ -7,7 +7,7 @@ categories: [tools, javascript, json]
 Tools Prettify Json String Javascript
 
 
-<script async src="//jsfiddle.net/KJQ9K/554/embed/"></script>
+<script async src="//jsfiddle.net/datagit/scyatnuj/1/embed/html,css,result/dark/"></script>
 
 {% highlight html %}
 <textarea>
