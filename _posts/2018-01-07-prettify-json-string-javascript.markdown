@@ -6,8 +6,7 @@ categories: [tools, javascript, json]
 ---
 Tools Prettify Json String Javascript
 
-<iframe width="100%" height="350" src="//jsfiddle.net/datagit/scyatnuj/1/embed/html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
+<iframe width="100%" height="300" src="//jsfiddle.net/datagit/scyatnuj/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 {% highlight html %}
 <textarea>
