@@ -6,15 +6,50 @@ categories: [tools, javascript, json]
 ---
 Tools Prettify Json String Javascript
 
-<iframe width="100%" height="500" src="//jsfiddle.net/datagit/scyatnuj/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="500" src="//jsfiddle.net/datagit/scyatnuj/1/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 {% highlight html %}
-<textarea>
-</textarea>
-<script type="text/javascript">
-var jsonobj = {"outcome" : "success", "result" : {"name" : "messaging-sockets", "default-interface" : "external", "include" : [], "socket-binding" : {"messaging" : {"name" : "messaging", "interface" : null, "port" : 5445, "fixed-port" : null, "multicast-address" : null, "multicast-port" : null}, "messaging-throughput" : {"name" : "messaging-throughput", "interface" : null, "port" : 5455, "fixed-port" : null, "multicast-address" : null, "multicast-port" : null}}}, "compensating-operation" : null};
+<textarea id="input" rows="3" cols="80"></textarea>
+<button onclick="main();">
+Submit
+</button>
+<pre id="output"></pre>
+<script>
+function output(inp) {
+document.getElementById("output").innerHTML = inp;
+}
 
-$('textarea').text(JSON.stringify(jsonobj,null,'\t'));
+function syntaxHighlight(json) {
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'key';
+            } else {
+                cls = 'string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'boolean';
+        } else if (/null/.test(match)) {
+            cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+    });
+}
+function main() {
+    var obj = {a:1, 'b':'foo', c:[false,'false',null, 'null', {d:{e:1.3e5,f:'1.3e5'}}]};
+    var input = document.getElementById("input").value;
+	  if (input != '') {
+  	  obj = JSON.parse(input);
+  	}
+  	var str = JSON.stringify(obj, undefined, 4);   
+  	//output(str);
+  	output(syntaxHighlight(str));
+
+}
+
+
 </script>
 {% endhighlight %}
 
