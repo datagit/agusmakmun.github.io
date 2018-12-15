@@ -3,8 +3,7 @@ layout: post
 title:  "Data Types In PHP"
 date:   2013-12-23 00:18:23 +0700
 categories: [php]
-tags: [data, type]
-image: code_php_dummy.jpeg
+tags: [phpdatatypes, datatypes]
 ---
 PHP has a total of eight data types which we use to construct our variables:
 
@@ -33,7 +32,6 @@ $false_null = NULL;
 $false_num = 999 - 999;
 $false_str = "";
 ```
-refer: [https://www.greycampus.com/codelabs/php/datatypes](https://www.greycampus.com/codelabs/php/datatypes)
 
 Type Casting
 We can cast following data type variable in PHP
@@ -45,3 +43,6 @@ We can cast following data type variable in PHP
 * (object) - cast to object
 * (unset) - cast to NULL (PHP 5)
 
+**Refference:** [https://www.greycampus.com/codelabs/php/datatypes](https://www.greycampus.com/codelabs/php/datatypes)
+
+hope it usefull.
