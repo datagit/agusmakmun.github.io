@@ -6,7 +6,8 @@ categories: [tools, javascript, json]
 ---
 Tools Prettify Json String Javascript
 
-<iframe width="100%" height="350" src="//jsfiddle.net/wy2Uk/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<script async src="//jsfiddle.net/KJQ9K/554/embed/"></script>
 
 {% highlight html %}
 <textarea>
