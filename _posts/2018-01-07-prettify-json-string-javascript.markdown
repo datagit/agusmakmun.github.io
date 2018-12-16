@@ -2,7 +2,7 @@
 layout: post
 title:  "Prettify Json String Javascript"
 date:   2018-01-07 04:19:22 +0700
-categories: [tools, javascript, json]
+categories: [tools, javascript]
 ---
 Tools Prettify Json String Javascript
 
