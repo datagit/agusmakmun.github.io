@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Data Types In PHP"
+title:  "PHP Data Types"
 date:   2013-12-23 00:18:23 +0700
 categories: [php]
-tags: [phpdatatypes, datatypes]
+tags: [php, php_data_types]
 ---
 PHP has a total of eight data types which we use to construct our variables:
 
