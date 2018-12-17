@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "List Files And Directories Describe Information"
+title:  "List Files And Directories Describe Information In Linux"
 date:   2018-01-06 19:31:43 +0700
 categories: [bash, linux]
 ---
