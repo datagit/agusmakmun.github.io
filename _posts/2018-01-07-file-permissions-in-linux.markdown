@@ -68,6 +68,8 @@ r-x = 101 in binary = 5
 r-- = 100 in binary = 4
 ```
 
-**Refference:** [http://linuxcommand.org/lc3_lts0090.php](http://linuxcommand.org/lc3_lts0090.php)
+**Refference:** 
+[http://linuxcommand.org/lc3_lts0090.php](http://linuxcommand.org/lc3_lts0090.php)
+[https://www.guru99.com/file-permissions.html](https://www.guru99.com/file-permissions.html)
 
 hope it usefull.

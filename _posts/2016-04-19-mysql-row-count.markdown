@@ -48,4 +48,7 @@ ORDER BY table_name;
 
 ![see](http://www.mysqltutorial.org/wp-content/uploads/2017/07/MySQL-Row-Count.png)
 
-refer: [http://www.mysqltutorial.org/mysql-row-count/](http://www.mysqltutorial.org/mysql-row-count/)
+**Refference:** 
+[http://www.mysqltutorial.org/mysql-row-count/](http://www.mysqltutorial.org/mysql-row-count/)
+
+hope it usefull.
