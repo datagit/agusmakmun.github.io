@@ -17,6 +17,7 @@ tags: [tools, others, mac, linux]
  - terminal
  - terminalview
  - git
+ 
 ```bash
 #install package
 $ command + shift + p
